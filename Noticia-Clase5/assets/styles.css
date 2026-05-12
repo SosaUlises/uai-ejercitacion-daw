@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.encabezado {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  border-bottom: 5px solid #e0b400;
+}
+
+.encabezado h1 {
+  margin: 0 0 10px 0;
+  font-size: 42px;
+}
+
+.encabezado a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 900px;
+  margin: 30px auto;
+}
+
+.noticia {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #ddd;
+}
+
+.categoria {
+  color: #c19400;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.noticia h2 {
+  font-size: 38px;
+  line-height: 1.15;
+  margin: 10px 0;
+}
+
+.bajada {
+  font-size: 21px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.fecha {
+  color: #777;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.noticia img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+.noticia p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.lateral {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 25px;
+}
+
+.lateral h3 {
+  margin-top: 0;
+  border-bottom: 2px solid #111;
+  padding-bottom: 10px;
+}
+
+.pie {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .contenedor {
+    width: 90%;
+  }
+
+  .noticia h2 {
+    font-size: 32px;
+  }
+
+  .bajada {
+    font-size: 19px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .encabezado {
+    padding: 15px;
+  }
+
+  .encabezado h1 {
+    font-size: 34px;
+  }
+
+  .encabezado a {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+
+  .contenedor {
+    width: 95%;
+    margin: 15px auto;
+  }
+
+  .noticia {
+    padding: 18px;
+  }
+
+  .noticia h2 {
+    font-size: 26px;
+  }
+
+  .bajada {
+    font-size: 18px;
+  }
+
+  .noticia p {
+    font-size: 16px;
+  }
+
+  .lateral {
+    padding: 15px;
+  }
+}
