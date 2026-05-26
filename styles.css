@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eeeeee;
+  color: #222222;
+}
+
+.encabezado {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.encabezado h1 {
+  margin-bottom: 10px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.lista-trabajos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+
+.tarjeta h2 {
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  margin-bottom: 15px;
+}
+
+.tarjeta a {
+  display: inline-block;
+  background-color: #222222;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.pie {
+  text-align: center;
+  background-color: #222222;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .lista-trabajos {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .tarjeta {
+    width: 48%;
+  }
+}
