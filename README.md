@@ -14,10 +14,12 @@ https://sosaulises.github.io/uai-ejercitacion-daw/
 - Noticia Clase 4
 - Noticia Clase 5
 - Actividad Clase 6
+- Actividad Clase 8
 
 ## Tecnologías utilizadas
 
 - HTML
 - CSS
+- JavaScript
 - Git
 - GitHub Pages
