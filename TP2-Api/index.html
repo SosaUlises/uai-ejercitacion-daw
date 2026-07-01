@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2 API - Rick and Morty</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <main class="contenedor">
+        <section class="encabezado">
+            <div>
+                <h1>Personajes de Rick and Morty</h1>
+            </div>
+            <button id="btn-todos" class="boton principal" type="button">Obtener todos</button>
+        </section>
+
+        <section class="panel">
+            <h2>Filtrar personajes</h2>
+            <form id="form-filtros" class="formulario">
+                <label>
+                    Nombre
+                    <input type="text" id="name" name="name" placeholder="Ej: Rick">
+                </label>
+
+                <label>
+                    Estado
+                    <input type="text" id="status" name="status" placeholder="alive, dead o unknown">
+                </label>
+
+                <label>
+                    Especie
+                    <input type="text" id="species" name="species" placeholder="Ej: Human">
+                </label>
+
+                <label>
+                    Tipo
+                    <input type="text" id="type" name="type" placeholder="Ej: Clone">
+                </label>
+
+                <label>
+                    Genero
+                    <input type="text" id="gender" name="gender" placeholder="female, male, genderless o unknown">
+                </label>
+
+                <button class="boton" type="submit">Buscar con filtros</button>
+            </form>
+        </section>
+
+        <section class="resultados">
+            <div class="barra-resultados">
+                <h2>Resultados</h2>
+                <p id="mensaje" class="mensaje">Todavia no se realizaron consultas.</p>
+            </div>
+
+            <div id="lista-personajes" class="cards-personajes"></div>
+        </section>
+    </main>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
