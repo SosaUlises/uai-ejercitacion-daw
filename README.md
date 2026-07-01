@@ -15,6 +15,7 @@ https://sosaulises.github.io/uai-ejercitacion-daw/
 - Noticia Clase 5
 - Actividad Clase 6
 - Actividad Clase 8
+- TP 2 - RickAndMorty
 
 ## Tecnologías utilizadas
 
